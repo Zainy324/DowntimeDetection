@@ -1,0 +1,48 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setting up fonts and basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Centering content */
+#content {
+    max-width: 800px; /* Increased width for better readability */
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Styling for data */
+#data {
+    font-size: 24px; /* Decreased font size for better alignment */
+    margin-bottom: 10px; /* Decreased margin for less gap */
+}
+
+/* Styling for status */
+#status {
+    font-size: 20px; /* Keeping the same font size */
+    color: green; /* Keeping the original color */
+}
+
+/* Styling for graphs container */
+.graph-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for individual graphs */
+.graph {
+    display: inline-block;
+    margin-right: 10px;
+}
+.graph iframe {
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+}
